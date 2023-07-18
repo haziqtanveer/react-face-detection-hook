@@ -19,7 +19,6 @@
   "homepage": "https://github.com/nonam4/react-face-detection-hook",
   "scripts": {
     "lint": "eslint --quiet --fix --ext .js,.ts,.tsx,.jsx .",
-    "postinstall": "patch-package",
     "dev": "concurrently \"tsc -w\" \"tsc-alias -w\"",
     "build": "tsc && tsc-alias",
     "release": "standard-version"
